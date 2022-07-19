@@ -1,0 +1,44 @@
+.aside .logo a::before{
+    border-top: 4px solid #2196F3;
+    border-left: 4px solid #2196F3;
+}
+
+.aside .logo a::after{
+    border-bottom: 4px solid #2196F3;
+    border-right: 4px solid #2196F3;
+}
+
+.home .intro .social-link a:hover,
+.btn:hover{
+    /* border: 1px solid #2196F3; */
+    /* color: #2196F3; */
+    background-color: #55aef6;
+}
+
+.aside .nav li a:hover,
+.about .about-content .about-text h3 span,
+.aside .nav-toggler span,
+.event .event-filter button.active,
+.event .event-item .event-info .icon .fa,
+.event .event-item .event-info .extra .fa,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.contact .contact-info-item .icon .fa{
+    color: #2196F3;
+}
+
+.btn,
+.home .intro .social-link a,
+.section-title h2::before,
+.section-title h2::after,
+.about .about-content .skills .skill-item .progress .progress-in,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .timeline .circle-dot,
+.blog .blog-item-inner .blog-img .blog-date{
+    background-color: #2196F3;
+}
+
+.event .event-filter button.active{
+    border-color: #2196F3;
+}
